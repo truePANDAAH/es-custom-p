@@ -1,0 +1,17 @@
+:root {
+    --bg-color:#011212 ;
+    --misura:100px;
+    --bg-color-ball: #ff8800 ;
+    --bordi-tondi:50px 
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.ball {
+    width: var(--misura);
+    height: var(--misura);
+    background-color: var(--bg-color-ball);
+    border-radius:var(--bordi-tondi);
+}
